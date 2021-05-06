@@ -1,9 +1,14 @@
-.px-200 {
-    padding-left: 300px;
-  }
 .bg-ColorFatima{
   background-color: #152F4F;
 }
 li{
   font-size: medium;
+}
+@media screen and (max-width: 340px){
+  #mig-header > a {
+      max-width: 200px;
+  }
+  #mig-header > button {
+      padding: 0.25rem;
+  }        
 }

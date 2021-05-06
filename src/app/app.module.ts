@@ -9,6 +9,8 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { FooterColegioComponent} from './footer-colegio/footer-colegio.component'
+import { HistoriaComponent } from './historia/historia.component';
+import { CalendarizacionComponent } from './calendarizacion/calendarizacion.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { FooterColegioComponent} from './footer-colegio/footer-colegio.component
     GaleriaComponent,
     NosotrosComponent,
     HomeComponent,
+    HistoriaComponent,
+    CalendarizacionComponent,
   ],
   imports: [
     BrowserModule,

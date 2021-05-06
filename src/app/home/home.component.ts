@@ -7,14 +7,10 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  //images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
-
   constructor(private _config:NgbCarouselConfig) { 
     _config.interval = 1000;
     _config.pauseOnHover = true;
   }
-
   ngOnInit(): void {
   }
-
 }
